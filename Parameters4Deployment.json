@@ -149,9 +149,9 @@
     },
     "networkSecurityGroupName": {
       "value": [
-        "VMsNSG",
-        "VMsNSG",
-        "VMsNSG"
+        "TRGVMsNSG",
+        "TRGVMsNSG",
+        "TRGVMsNSG"
       ]
     }
   }
