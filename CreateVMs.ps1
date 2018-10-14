@@ -18,9 +18,9 @@ function Format-Json([Parameter(Mandatory, ValueFromPipeline)][String] $json) {
   }) -Join "`n"
 }
 #Parameters Template - based on this a template will be created for deployment dynamically -Parameters4Deployment.json
-$ParmatersMasterPath = "C:\Temp\I9\ParametersMasterv15.0.json"
+$ParmatersMasterPath = "C:\Temp\I9\ParametersMaster.json"
 #Template for the VM 
-$TemplateMasterPath = "C:\Temp\I9\TemplateMasterv15.0.json" 
+$TemplateMasterPath = "C:\Temp\I9\TemplateMaster.json" 
 #Input fields
 $parametersCSV = IMport-csv "C:\Temp\I9\ServerParameters.csv"
 #Set storage context
